@@ -7,12 +7,12 @@ import com.iocapp.components.DataStore;
 
 import jakarta.annotation.PostConstruct;
 
-@Component
+//@Component
 public class IntegratedVersion2 {
- @Autowired
+ //@Autowired
  private DataStore store;
  
- @PostConstruct
+ //@PostConstruct
  public void perform() {
 	 System.out.println("In Integrated Version2");
 	 System.out.println(store);
